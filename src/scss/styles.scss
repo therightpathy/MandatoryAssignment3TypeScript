@@ -1,0 +1,17 @@
+$fontColor: #0091aa;
+$colorHeading: #be4a14;
+#content  // div with id: content
+{
+    color: $fontColor;
+}
+
+h2
+{
+    color: #0091aa;
+    color: $colorHeading;
+}
+
+h1{
+    color: #0091aa;
+    @extend h2;
+}
